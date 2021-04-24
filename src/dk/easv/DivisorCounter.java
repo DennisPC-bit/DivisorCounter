@@ -9,6 +9,7 @@ public class DivisorCounter implements Runnable, Callable<Result> {
     private final static Vector<Result> results = new Vector<>();
     private final int minimum;
     private final int maximum;
+    private final String str;
 
     public DivisorCounter(int minimum, int maximum)
     {
